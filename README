@@ -1,0 +1,25 @@
+# JWT Authentication Boilerplate
+
+This is a simple boilerplate to start any new JWT based auth project in Typescript, ExpressJS.
+
+## Prerequisites
+
+- Node, with version 16.x.x
+- Typescript and Nodemon
+
+## Setup & Installation
+
+1. Install dependencies using npm
+
+`npm i`
+
+2. Create .env file at the root directory and populate it with the contents of `.env.sample` file.
+
+## Usage
+
+For simplicity, all the routes, controllers and services are placed in the same file. Feel free to take them out and create your own directory structure in your main project.
+
+1. Run `npm run start:auth` on a terminal to start the auth server which contains all authentication related APIs.
+2. Run `npm run start:service` on another terminal to test the authorization functionality.
+
+Article referred for this project - https://medium.com/@prashantramnyc/authenticate-rest-apis-in-node-js-using-jwt-json-web-tokens-f0e97669aad3
