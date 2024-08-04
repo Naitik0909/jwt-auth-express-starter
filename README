@@ -13,7 +13,7 @@ This is a simple boilerplate to start any new JWT based auth project in Typescri
 
 `npm i`
 
-2. Create .env file at the root directory and populate it with the contents of `.env.sample` file.
+2. Create .env file at the root directory and populate it with the contents of `env.sample` file.
 
 ## Usage
 
@@ -21,6 +21,6 @@ For simplicity, all the routes, controllers and services are placed in the same 
 
 1. Run `npm run start:auth` on a terminal to start the auth server which contains all authentication related APIs.
 2. Run `npm run start:service` on another terminal to test the authorization functionality.
-3. Import the attached postman collcetion and test out the APIs.
+3. Import the attached postman collection and test out the APIs.
 
 Article referred for this project - https://medium.com/@prashantramnyc/authenticate-rest-apis-in-node-js-using-jwt-json-web-tokens-f0e97669aad3
